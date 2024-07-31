@@ -81,6 +81,19 @@ transition: 0.3s;
 
 }
 
+.personalizacao {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.personalizacao:hover {
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.582);
+    color: purple;
+    background-color: white;
+}
+
 /*aqui começa o mobile*/
 
 @media (max-width: 750px) {
