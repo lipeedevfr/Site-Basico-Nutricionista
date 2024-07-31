@@ -3,11 +3,16 @@
     padding: 0;
 }
 
-body {
+html, body {
     font-family: sans-serif;
+    background: url(img/background.jpeg);
 }
 
 /*parte da header começa aqui*/
+
+#nome {
+    width: 600px;
+} /* nome da mulher */
 
 .logo{
 
@@ -18,6 +23,7 @@ body {
 .header{
     padding-inline: 16px;
     background-color: rgb(153, 204, 153);
+    height: 85px;
 }
 
 .nav{
@@ -67,6 +73,7 @@ body {
     border-top: 3px solid #fff;
     cursor: pointer;
 }
+
 /* criou os tres tracinhos do menu hamburguer*/
 .hamburger::before,
 .hamburger::after{
@@ -80,7 +87,7 @@ position: relative;
 transition: 0.3s;
 
 }
-
+/*Aqui está a personalização dos botões*/
 .personalizacao {
     border: none;
     padding: 10px 20px;
@@ -89,9 +96,32 @@ transition: 0.3s;
 }
 
 .personalizacao:hover {
-    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.582);
+    box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.362);
     color: purple;
     background-color: white;
+}
+
+#primeiro>h2 {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#primeiro>p {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#primeiro {
+    background-color: white(118, 118, 118);
+    margin-top: 70px;
+    border: 10px 10px 10px 10px black;
+}
+
+#dois {
+    background-color: maroon;
+    border: 10px 10px black;
 }
 
 /*aqui começa o mobile*/
@@ -101,7 +131,6 @@ transition: 0.3s;
         display: block;
         z-index: 1;
     }
-
 
     .nav-list {
 
@@ -120,6 +149,7 @@ transition: 0.3s;
         pointer-events: none;
 
     }
+
 
     /*Parte do javascript*/
 
