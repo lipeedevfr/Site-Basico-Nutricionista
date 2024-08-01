@@ -59,7 +59,9 @@ html, body {
 
 .main {
     height: calc(100vh - 70px);
-    background: center / cover no-repeat url("./img/background.jpeg"); /* essa parte faz o background calcular automaticamente o tamanho da pagina e ele se adequa a qualquer tamanho.*/
+    background: center / cover no-repeat url("./img/inicio.png"); 
+    
+    /* essa parte faz o background calcular automaticamente o tamanho da pagina e ele se adequa a qualquer tamanho.*/
 }
 
 /*Termina aqui a parte de navegação do site*/
